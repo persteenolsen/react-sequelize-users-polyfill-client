@@ -1,8 +1,6 @@
 # A React client for Node Express Sequelize Web API Sign up with Email verification Boilerplate
 
-A React client - for a Node Express Sequelize MySQL Web API - using Webpack 5, Babel 7, PostCSS and Sass with a hot dev server and an optimized production build. Babel compiles ES6+ and React to ES5. 
-
-# Note: 03-12-2021 - This Readme will soon be updated
+A React client - for a Node Express Sequelize MySQL Web API - using Webpack 5, Babel 7, PostCSS and Sass with a hot dev server and an optimized production build. Babel compiles ES6+ and React to ES5. Some older Browsers like IE 11 are partly supported
 
 # Usage
 
@@ -41,12 +39,8 @@ A React client - for a Node Express Sequelize MySQL Web API - using Webpack 5, B
 
 - [`react`](https://www.npmjs.com/package/react) - React is a JavaScript library for creating user interfaces. For creating React components.
 - [`react-dom`](https://www.npmjs.com/package/react-dom) - This package serves as the entry point to the DOM and server renderers for React. 
-- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) - This package serves as DOM for React Router. 
-- [`react-hook-form`](https://www.npmjs.com/package/react-hook-form) - Forms in Reack. 
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) - This package serves as DOM for React Router.  
 
-# Babel
-
-- [`@babel-runtime`](https://babeljs.io/docs/en/babel-runtime) - Babel Runtime for dev babel/plugin-transform-runtime.
 
 # Other 
 
@@ -78,12 +72,6 @@ A React client - for a Node Express Sequelize MySQL Web API - using Webpack 5, B
 - [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to ES5
 - [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
 - [`@babel/preset-react`](https://babeljs.io/docs/en/babel-preset-react) - Defaults Babel React
-- [`@babel/plugin-transform-runtime`](https://babeljs.io/docs/en/babel-plugin-transform-runtime) - Babel to use async/await
-- [`@babel/plugin-proposal-object-rest-spread`](https://babeljs.io/docs/en/plugin-proposal-object-rest-spread) - Babel helper
-- [`@babel/plugin-transform-arrow-functions`](https://babeljs.io/docs/en/plugin-transform-arrow-functions) - For arrow functions
-- [`@babel/plugin-transform-async-to-generator`](https://babeljs.io/docs/en/plugin-transform-async-to-generator) - Generator for async/await
-- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties on a class
-
 
 # Plugins
 

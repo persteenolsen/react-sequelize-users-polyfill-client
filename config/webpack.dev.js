@@ -13,14 +13,12 @@ module.exports = merge(common, {
 
   // Control how source maps are generated
   devtool: 'inline-source-map',
-  //devtool: false,
-  
-  //NOTE: 12-12-2021: Maybe not needed to support IE 11 because of the use of Browserslist in package.json combined 
-  // with core-js3 - babel@preset-ent - usebuiltin: usage
-  // The npm package query-string NEEDS to be version 5 insted of 6 to support IE 11
-  // Enable: It is possible testing in IE 11, but reload / replacement will break due to a bug in webpack 5 !
-  // Disable: It is possible to use hot relad / replacement but not using IE 11 !
-  //target: ['web', 'es5'], 
+ 
+ // NOTE: 15-12-2021: The support of IE 11 is done by the use of Browserslist in package.json combined with core-js3 - babel@preset-ent - usebuiltin: usage 
+  // The npm package query-string NEEDS to be version 5 instead of 6 to support IE 11
+  // ENABLE "target: 'web'"  for use Hot Reload / HMR in Crome ( not in IE 11 )
+  // DISABLE "target: 'web'" for use IE 11 during testing => Hot Reload / HMR will stop working in Chrome due to a bug in Webpack 5
+  target: 'web', 
 
   // Spin up a server for quick development
   devServer: {
